@@ -16,6 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <script
+          src="https://storage.googleapis.com/workbox-cdn/releases/6.1.5/workbox-sw.js"
+          async
+        />
       <body className={inter.className}>{children}</body>
     </html>
   );
